@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.7.1" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+    http://pear.php.net/dtd/tasks-1.0.xsd
+    http://pear.php.net/dtd/package-2.0
+    http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Layout_Unremove</name>
+ <channel>connect.magentocommerce.com/community</channel>
+ <summary>Allows you to use &quot;x-unremove&quot; in local.xml to undo a block removal. </summary>
+ <description>Allows you to use &quot;x-unremove&quot; in local.xml to undo a block removal. </description>
+ <lead>
+  <name>Alan Storm</name>
+  <user>alanstorm</user>
+  <email>astorm@alanstorm.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2011-01-04</date>
+ <time>23:25:24</time>
+ <version>
+  <release>1.0.1</release>
+  <api>1.0</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license>MIT License</license>
+ <notes>Tested with Magento 1.4.2. </notes>
+ <contents>
+  <dir name="/">
+   <dir name="Alanstormdotcom">
+    <dir name="Unremove">
+     <dir name="etc">
+      <file md5sum="540b65897402268921278f0a1ad78bee" name="config.xml" role="magelocal" />
+     </dir> <!-- /Alanstormdotcom/Unremove/etc -->
+     <dir name="Model">
+      <file md5sum="6c9f10fede8e6b1b6cf2e2d8c2f1b84b" name="Observer.php" role="magelocal" />
+     </dir> <!-- /Alanstormdotcom/Unremove/Model -->
+    </dir> <!-- /Alanstormdotcom/Unremove -->
+   </dir> <!-- /Alanstormdotcom -->
+   <dir name="modules">
+    <file md5sum="0de8ee6e3514ee1c25976140005528b1" name="Alanstormdotcom_Unremove.xml" role="mageetc" />
+   </dir> <!-- /modules -->
+  </dir> <!-- / -->
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2.0</min>
+    <max>6.0.0</max>
+    <exclude>6.0.0</exclude>
+   </php>
+   <pearinstaller>
+    <min>1.6.2</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease />
+</package>
