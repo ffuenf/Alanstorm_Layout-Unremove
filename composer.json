@@ -1,0 +1,10 @@
+{
+    "name": "alanstormdotcom/unremove",
+    "description": "Adds the possibility to use the local.xml layout file to reverse the effects of a remove tag.",
+    "type": "magento-module",
+    "homepage": "https://github.com/ffuenf/Alanstorm_Layout-Unremove",
+    "license": "MIT",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "2.*"
+    }
+}
